@@ -29,11 +29,11 @@ class TV:
             self.getvolume = 1
         return self.getvolume
     
-    def ChannelUp(self):
+    def channelUp(self):
         if self.getchannel <= 119:
             self.getchannel = self.getchannel + 1
 
-    def ChannelDown(self):
+    def channelDown(self):
         if self.getchannel >= 2:
             self.getchannel = self.getchannel - 1
     
