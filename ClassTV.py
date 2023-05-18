@@ -14,3 +14,11 @@ class TV:
 
     def turnOff(self):
         self.TVpower = False
+
+    def getChannel(self):
+        if self.getchannel > 120:
+            self.getchannel = 120
+        elif self.getchannel < 1:
+            self.getchannel = 1
+        return self.getchannel
+    
