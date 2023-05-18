@@ -7,3 +7,5 @@ print("")
 print("\033[35m※ \033[0m" * 40)
 print("")
 print("\033[45m ♥ Welcome! ♥ \033[0m".center(85))
+
+from ClassTV import TV
