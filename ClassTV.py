@@ -9,3 +9,8 @@ class TV:
         self.getvolume = volume
         self.TVpower = power
         
+    def turnOn(self):
+        self.TVpower = True
+
+    def turnOff(self):
+        self.TVpower = False
