@@ -37,10 +37,10 @@ class TV:
         if self.getchannel >= 2:
             self.getchannel = self.getchannel - 1
     
-    def VolumeUp(self):
+    def volumeUp(self):
         if self.getvolume <= 6:
             self.getvolume = self.getvolume + 1
 
-    def VolumeDown(self):
+    def volumeDown(self):
         if self.getvolume >= 2:
             self.getvolume = self.getvolume - 1
