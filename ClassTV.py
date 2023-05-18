@@ -22,3 +22,10 @@ class TV:
             self.getchannel = 1
         return self.getchannel
     
+    def getVolume(self):
+        if self.getvolume > 7:
+            self.getvolume = 7
+        elif self.getvolume < 1:
+            self.getvolume = 1
+        return self.getvolume
+    
