@@ -24,4 +24,14 @@ def TestTV():
     
     tv1 = TV(30, 3, True)
     print("\n\033[36;1mtv1's channel is", tv1.getChannel() , "and volume level is", tv1.getVolume(), "\033[0m")
+        
+    print("\n")
+    print("⨉ " * 40)
+    
+    print("\n")
+    print("\033[1mT E L E V I S I O N  2\033[0m".center(85))
+    print("")
+    print("\033[31m-\033[0m" * 80)
+    print("\033[1;3;32mLoading..........\033[0m".center(90))
+    print("\033[31m-\033[0m" * 80)
     
