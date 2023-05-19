@@ -40,3 +40,10 @@ def TestTV():
     print("")
     
 TestTV()
+
+# Outro and border line
+print("\n")
+print("\033[3mThank you! Have a great day!".center(80))
+print("")
+print("\033[35m※ \033[0m" * 40)
+print("")
