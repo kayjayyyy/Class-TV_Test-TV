@@ -35,3 +35,8 @@ def TestTV():
     print("\033[1;3;32mLoading..........\033[0m".center(90))
     print("\033[31m-\033[0m" * 80)
     
+    tv2 = TV(3, 2, True)
+    print("\n\033[36;1mtv2's channel is", tv2.getChannel() , "and volume level is", tv2.getVolume(), "\033[0m")
+    print("")
+    
+TestTV()
