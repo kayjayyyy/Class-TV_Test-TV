@@ -9,13 +9,11 @@ class TV:
         self.getvolume = volume
         self.TVpower = power
 
-        # Channel
         if self.getchannel > 120:
             self.getchannel = 120
         elif self.getchannel < 1:
             self.getchannel = 1
         
-        # Volume
         if self.getvolume > 7:
             self.getvolume = 7
         elif self.getvolume < 7:
